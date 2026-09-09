@@ -1,9 +1,12 @@
-print ("====== CARRERA DE CARRITOS ======")
-fuerzas = [10, 20, 30]
+fuerzas = []
+
 masa = 5
 
+for i in range(3):
+    fuerza = float(input("Ingrese la fuerza: "))
+    fuerzas.append(fuerza)
+
 mayor = 0
-carrito_mayor = ""
 
 for i in range(3):
     aceleracion = fuerzas[i] / masa
@@ -14,6 +17,5 @@ for i in range(3):
 
     if aceleracion > mayor:
         mayor = aceleracion
-        carrito_mayor = i + 1
 
-print("Mayor aceleración: Carrito", carrito_mayor)
+print("Mayor aceleración:", mayor, "m/s²")

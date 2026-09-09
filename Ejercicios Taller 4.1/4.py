@@ -11,3 +11,4 @@ print("Aire sobre el globo: +", reaccion, "N")
 
 print("Igual magnitud y sentido contrario.")
 print("TERCERA LEY DE NEWTON")
+print("← Aire | Globo →")

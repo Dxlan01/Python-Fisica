@@ -25,3 +25,11 @@ for i in range(5):
     print("Aceleración:", experimentos[i][2], "m/s²")
 
 print("Mayor aceleración: Prueba", prueba_mayor)
+suma = 0
+
+for i in range(5):
+    suma = suma + experimentos[i][2]
+
+promedio = suma / 5
+
+print("Aceleración promedio:", promedio, "m/s²")
